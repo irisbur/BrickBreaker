@@ -16,6 +16,8 @@
 		B8F888E929F7C8E7001D91C8 /* BrickBreakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F888E829F7C8E7001D91C8 /* BrickBreakerTests.swift */; };
 		B8F888F329F7C8E7001D91C8 /* BrickBreakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F888F229F7C8E7001D91C8 /* BrickBreakerUITests.swift */; };
 		B8F888F529F7C8E7001D91C8 /* BrickBreakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F888F429F7C8E7001D91C8 /* BrickBreakerUITestsLaunchTests.swift */; };
+		B8F8890229F7E186001D91C8 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F8890129F7E186001D91C8 /* Renderer.swift */; };
+		B8F8890429F7E7FD001D91C8 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = B8F8890329F7E7FD001D91C8 /* Shader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B8F888EE29F7C8E7001D91C8 /* BrickBreakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrickBreakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8F888F229F7C8E7001D91C8 /* BrickBreakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickBreakerUITests.swift; sourceTree = "<group>"; };
 		B8F888F429F7C8E7001D91C8 /* BrickBreakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickBreakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B8F8890129F7E186001D91C8 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		B8F8890329F7E7FD001D91C8 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				B8F888D129F7C8E5001D91C8 /* AppDelegate.swift */,
 				B8F888D329F7C8E5001D91C8 /* SceneDelegate.swift */,
 				B8F888D529F7C8E5001D91C8 /* ViewController.swift */,
+				B8F8890129F7E186001D91C8 /* Renderer.swift */,
+				B8F8890329F7E7FD001D91C8 /* Shader.metal */,
 				B8F888D729F7C8E5001D91C8 /* Main.storyboard */,
 				B8F888DA29F7C8E7001D91C8 /* Assets.xcassets */,
 				B8F888DC29F7C8E7001D91C8 /* LaunchScreen.storyboard */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F8890229F7E186001D91C8 /* Renderer.swift in Sources */,
 				B8F888D629F7C8E5001D91C8 /* ViewController.swift in Sources */,
 				B8F888D229F7C8E5001D91C8 /* AppDelegate.swift in Sources */,
+				B8F8890429F7E7FD001D91C8 /* Shader.metal in Sources */,
 				B8F888D429F7C8E5001D91C8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
